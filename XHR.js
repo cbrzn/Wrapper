@@ -6,6 +6,6 @@ function loadXMLDoc() {
       this.responseText;
     }
   };
-  xhttp.open("GET", "test.txt", true);
+  xhttp.open("GET", "text.txt", true);
   xhttp.send();
 }
