@@ -6,13 +6,23 @@
 	<body>
 
 		<h2>WRAPPER</h2>
+
+		Name: <input type="text" id="Name"/>
+
 		<button type="button" onclick="getText()">
 		Test</button>
 
 		<button type="button" onclick="getText2()">
 		Post Test</button>
 
-		<p id="text"></p>
+		<select id="request"> 
+			<option value="get">GET</option>
+			<option value="post">POST</option>
+		</select>
+
+		<form method="POST" action="text2.txt">
+        	<input type="text" id="texting" name="texting" />
+		</form>
 
 	</body>
 </html>
